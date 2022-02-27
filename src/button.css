@@ -1,0 +1,91 @@
+.button-wrapper {
+  width: 576px;
+  min-height: 376px;
+  border: 1px dashed #8055ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding: 4.8rem;
+}
+
+.wrapper__buttons {
+  margin-bottom: 4.8rem;
+}
+
+.button-wrapper__bgroup {
+  margin-right: 4.8rem;
+}
+
+.button-wrapper__bgroup_sm {
+  margin-right: 6.4rem;
+}
+
+.button {
+  border-radius: 4px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  margin: 0;
+}
+
+.button_md {
+  padding: 0.8rem 1.6rem;
+}
+
+.button_sm {
+  padding: 0.4rem 0.8rem;
+}
+
+.button-group__button:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.button_without-text {
+  padding: 0.8rem;
+}
+
+.button__icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.button_sm .button__text {
+  margin-left: 0.4rem;
+}
+
+.button__icon + span {
+  margin-left: 0.8rem;
+}
+
+.button_sm-without-text {
+  padding: 0.4rem;
+}
+
+.button_blue {
+  color: #fff;
+  background-color: #459df5;
+  fill: #fff;
+}
+button + .button__icon {
+  fill: inherit;
+}
+
+.button_blue-reverse {
+  color: #459df5;
+  background-color: #e5e5e5;
+  fill: #459df5;
+}
+
+.button_black-reverse {
+  color: black;
+  background-color: #e5e5e5;
+  fill: #000000;
+}
