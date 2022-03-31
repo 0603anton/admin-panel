@@ -22,8 +22,8 @@
 
 .check {
   display: flex;
+  width: 100%;
   align-items: center;
-  justify-content: center;
 }
 
 .checkbox-group__checkbox:not(:last-child) {
@@ -66,8 +66,8 @@
 
 .radio {
   display: flex;
+  width: 100%;
   align-items: center;
-  justify-content: center;
 }
 
 .radio__item {

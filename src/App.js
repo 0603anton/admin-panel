@@ -1,10 +1,10 @@
 import './App.css';
-import './input.css'
-import './search-bar.css'
-import './reset.css'
-import './checkbox-radio.css'
-import './button.css'
-import './dropdown.css'
+import './input.css';
+import './search-bar.css';
+import './reset.css';
+import './checkbox-radio.css';
+import './button.css';
+import './dropdown.css';
 
 
 
@@ -561,21 +561,21 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="dropdown-group__bottom dropdown-group_position">
+          <div class="dropdown-group__bottom dropdown-group_center-items">
             <label for="" class="input-item__label">Удалить n записей?</label>
             <button
-              class="button button_position button_md button__dropdown button_blue-reverse"
+              class="button button_full-width button_sm button__dropdown button_blue-reverse"
             >
               <span class="button__text">Удалить</span>
             </button>
-            <button class="button_position button button_md button_blue">
+            <button class="button_full-width button button_sm button_blue">
               <span class="button__text">Отмена</span>
             </button>
           </div>
-          <div class="dropdown-group__bottom dropdown-group_position">
-            <label for="" class="input-item__label">Выбирите тему</label>
+          <div class="dropdown-group__bottom dropdown-group_center-items">
+            <label for="" class="input-item__label">Выберите тему</label>
             <button
-              class="button button_position button__dropdown button_md button_blue-reverse"
+              class="button button_full-width button__dropdown button_sm button_blue-reverse"
             >
               <svg
                 class="button__icon"
@@ -605,7 +605,7 @@ function App() {
               <span class="button__text">Светлая</span>
             </button>
             <button
-              class="button button_position button_md button_blue button-group__button"
+              class="button button_full-width button_sm button_blue button-group__button"
             >
               <svg
                 class="button__icon"

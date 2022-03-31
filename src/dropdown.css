@@ -80,16 +80,16 @@
   padding: 0.8rem 0.4rem 0.8rem 0.8rem;
 }
 
-.button__dropdown {
-  margin: 0;
+.button__dropdown:not(:last-child) {
+  margin: 0 0 0.8rem 0;
   background: #fff;
 }
 
-.dropdown-group_position {
+.dropdown-group_center-items {
   align-items: center;
 }
 
-.button_position {
+.button_full-width {
   display: flex;
   justify-content: center;
   width: 100%;
