@@ -1,22 +1,18 @@
-import './App.css';
-import './input.css';
-import './search-bar.css';
-import './reset.css';
-import './checkbox-radio.css';
-import './button.css';
-import './dropdown.css';
-
-
-
+import "./App.css";
+import "./input.css";
+import "./search-bar.css";
+import "./checkbox-radio.css";
+import "./button.css";
+import "./dropdown.css";
 
 function App() {
   return (
     <div class="wrapper">
       <div class="input-group wrapper__item">
         <div class="input-item input-item__content">
-          <label for="dateInput" class="input-item__label"
-          >Дата и время заказа</label
-          >
+          <label for="dateInput" class="input-item__label">
+            Дата и время заказа
+          </label>
           <div class="input-item__body">
             <input
               type="text"
@@ -28,9 +24,9 @@ function App() {
         </div>
 
         <div class="input-item input-item__content">
-          <label for="dateInputIncorrect" class="input-item__label"
-          >Дата и время заказа</label
-          >
+          <label for="dateInputIncorrect" class="input-item__label">
+            Дата и время заказа
+          </label>
           <div class="input-item__body">
             <input
               type="text"
@@ -53,9 +49,9 @@ function App() {
         </div>
 
         <div class="input-item input-item__content">
-          <label for="dateInput-disabled" class="input-item__label"
-          >Дата и время заказа</label
-          >
+          <label for="dateInput-disabled" class="input-item__label">
+            Дата и время заказа
+          </label>
           <div class="input-item__body">
             <input
               type="text"
@@ -87,9 +83,7 @@ function App() {
       </div>
 
       <div class="input-group input-group__searchbar wrapper__item">
-        <div
-          class="input-item input-item__content input-item__content_searchbar"
-        >
+        <div class="input-item input-item__content input-item__content_searchbar">
           <div class="input-item__body">
             <input
               type="text"
@@ -195,9 +189,7 @@ function App() {
           <button class="button button_md button_blue button-group__button">
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_md button_blue button_without-text button-group__button"
-          >
+          <button class="button button_md button_blue button_without-text button-group__button">
             <svg
               class="button__icon button__icon_without-text"
               viewBox="0 0 16 16"
@@ -220,9 +212,7 @@ function App() {
           </button>
         </div>
         <div class="button-group button-wrapper__bgroup">
-          <button
-            class="button button_md button_blue-reverse button-group__button"
-          >
+          <button class="button button_md button_blue-reverse button-group__button">
             <svg
               class="button__icon"
               viewBox="0 0 16 16"
@@ -244,14 +234,10 @@ function App() {
             </svg>
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_md button_blue-reverse button-group__button"
-          >
+          <button class="button button_md button_blue-reverse button-group__button">
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_md button_blue-reverse button_without-text button-group__button"
-          >
+          <button class="button button_md button_blue-reverse button_without-text button-group__button">
             <svg
               class="button__icon button__icon_without-text"
               viewBox="0 0 16 16"
@@ -274,9 +260,7 @@ function App() {
           </button>
         </div>
         <div class="button-group">
-          <button
-            class="button button_md button_black-reverse button-group button-group__button"
-          >
+          <button class="button button_md button_black-reverse button-group button-group__button">
             <svg
               class="button__icon"
               viewBox="0 0 16 16"
@@ -298,14 +282,10 @@ function App() {
             </svg>
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_md button_black-reverse button-group__button"
-          >
+          <button class="button button_md button_black-reverse button-group__button">
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_md button_black-reverse button_without-text button-group__button"
-          >
+          <button class="button button_md button_black-reverse button_without-text button-group__button">
             <svg
               class="button__icon button__icon_without-text"
               viewBox="0 0 16 16"
@@ -353,9 +333,7 @@ function App() {
           <button class="button button_sm button_blue button-group__button">
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_sm button_blue button_sm-without-text button-group__button"
-          >
+          <button class="button button_sm button_blue button_sm-without-text button-group__button">
             <svg
               class="button__icon button__icon_without-text"
               viewBox="0 0 16 16"
@@ -378,9 +356,7 @@ function App() {
           </button>
         </div>
         <div class="button-group">
-          <button
-            class="button button_sm button_blue-reverse button-group__button"
-          >
+          <button class="button button_sm button_blue-reverse button-group__button">
             <svg
               class="button__icon"
               viewBox="0 0 16 16"
@@ -402,14 +378,10 @@ function App() {
             </svg>
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_sm button_blue-reverse button-group__button"
-          >
+          <button class="button button_sm button_blue-reverse button-group__button">
             <span class="button__text">Text here</span>
           </button>
-          <button
-            class="button button_sm button_blue-reverse button_sm-without-text button-group__button"
-          >
+          <button class="button button_sm button_blue-reverse button_sm-without-text button-group__button">
             <svg
               class="button__icon button__icon_without-text"
               viewBox="0 0 16 16"
@@ -548,9 +520,9 @@ function App() {
         <div class="dropdown-group">
           <div class="dropdown-group__bottom">
             <div class="input-item">
-              <label for="pageInput" class="input-item__label"
-              >Номер страницы</label
-              >
+              <label for="pageInput" class="input-item__label">
+                Номер страницы
+              </label>
               <div class="input-item__body">
                 <input
                   type="text"
@@ -562,10 +534,10 @@ function App() {
             </div>
           </div>
           <div class="dropdown-group__bottom dropdown-group_center-items">
-            <label for="" class="input-item__label">Удалить n записей?</label>
-            <button
-              class="button button_full-width button_sm button__dropdown button_blue-reverse"
-            >
+            <label for="" class="input-item__label">
+              Удалить n записей?
+            </label>
+            <button class="button button_full-width button_sm button__dropdown button_blue-reverse">
               <span class="button__text">Удалить</span>
             </button>
             <button class="button_full-width button button_sm button_blue">
@@ -573,10 +545,10 @@ function App() {
             </button>
           </div>
           <div class="dropdown-group__bottom dropdown-group_center-items">
-            <label for="" class="input-item__label">Выберите тему</label>
-            <button
-              class="button button_full-width button__dropdown button_sm button_blue-reverse"
-            >
+            <label for="" class="input-item__label">
+              Выберите тему
+            </label>
+            <button class="button button_full-width button__dropdown button_sm button_blue-reverse">
               <svg
                 class="button__icon"
                 viewBox="0 0 16 16"
@@ -604,9 +576,7 @@ function App() {
               </svg>
               <span class="button__text">Светлая</span>
             </button>
-            <button
-              class="button button_full-width button_sm button_blue button-group__button"
-            >
+            <button class="button button_full-width button_sm button_blue button-group__button">
               <svg
                 class="button__icon"
                 viewBox="0 0 16 16"
